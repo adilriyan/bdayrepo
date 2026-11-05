@@ -1,0 +1,5 @@
+{
+  "enabledPlugins": {
+    "anidoodle@anthropic-plugin-directory": true
+  }
+}
