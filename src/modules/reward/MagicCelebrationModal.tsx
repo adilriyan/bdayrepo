@@ -1,4 +1,4 @@
-import React from 'react'
+﻿import React from 'react'
 import { motion, AnimatePresence } from 'motion/react'
 import { Heart, Sparkles, CakeSlice, Star, ArrowRight } from 'lucide-react'
 import { Confetti } from '../../shared/components/Confetti/Confetti'
@@ -39,13 +39,13 @@ export const MagicCelebrationModal: React.FC<MagicCelebrationModalProps> = ({
               <Sparkles size={19} />
             </div>
             <span className="script-kicker">you found every little bit of magic</span>
-            <h2 id="magic-100-title">100% friendship magic!</h2>
+            <h2 id="magic-100-title">100% bond & magic!</h2>
             <p>
-              Every tiny secret led here, {storyContent.recipientName}. Your friendship is the real birthday gift, and I have been thinking that it is the best part of this whole little adventure.
+              Every tiny secret led here, {storyContent.recipientName}. Having you on this journey is the real gift, and our bond is the most precious part of this whole little adventure.
             </p>
             <div className="magic-100-reward">
               <CakeSlice size={20} />
-              <span>Perfect friend status unlocked</span>
+              <span>Inseparable bond unlocked</span>
               <Star size={17} fill="currentColor" />
             </div>
             <button className="primary" onClick={onContinue}>

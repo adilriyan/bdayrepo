@@ -1,4 +1,4 @@
-import React from 'react'
+﻿import React from 'react'
 import { motion } from 'motion/react'
 import { Heart } from 'lucide-react'
 import type { SceneIndex } from '../../../types/story.types'
@@ -33,10 +33,10 @@ export const ProgressBar: React.FC<ProgressBarProps> = ({ scene, friendshipMagic
       </div>
       <div
         className={`friendship-meter ${friendshipMagic >= 100 ? 'meter-complete' : ''}`}
-        aria-label={`Friendship magic ${friendshipMagic} percent`}
+        aria-label={`Magic meter ${friendshipMagic} percent`}
       >
         <span>
-          <Heart size={12} fill="currentColor" /> friendship magic
+          <Heart size={12} fill="currentColor" /> our magic
         </span>
         <div>
           <i style={{ width: `${friendshipMagic}%` }} />

@@ -1,4 +1,4 @@
-import React from 'react'
+﻿import React from 'react'
 import { ArrowLeft, ArrowRight, Heart } from 'lucide-react'
 import { DioramaStage } from '../../shared/components/DioramaStage/DioramaStage'
 import { DraggablePenguin } from '../../shared/components/Penguin/DraggablePenguin'
@@ -38,7 +38,7 @@ export const Scene05Seaside: React.FC<Scene05SeasideProps> = ({
         <DraggablePenguin side="left" onDiscover={() => onDiscover('penguin-left')} />
         <DraggablePenguin side="right" onDiscover={() => onDiscover('penguin-right')} />
         <div className="sea-message">
-          two little penguins, one big friendship <span>♡</span>
+          two little penguins, in this together <span>♡</span>
         </div>
         {ripples.map((r) => (
           <i
@@ -86,7 +86,7 @@ export const Scene05Seaside: React.FC<Scene05SeasideProps> = ({
           Side by side,<br />through every <em>sea.</em>
         </h1>
         <p>
-          If life gets stormy, we’ll waddle through it together. If the sun comes out, we’ll find a little ocean to dance beside. You’ll always have a friend on your team — flippers, silly laughs, and all.
+          If life gets stormy, we’ll waddle through it together. If the sun comes out, we’ll find a little ocean to dance beside. We are in this together — flippers, silly laughs, and all.
         </p>
         <div className="button-row">
           <button className="secondary" onClick={onBack}>
@@ -97,7 +97,7 @@ export const Scene05Seaside: React.FC<Scene05SeasideProps> = ({
           </button>
         </div>
         <span className="microcopy">
-          <Heart size={13} fill="currentColor" /> two penguins, one forever kind of friendship
+          <Heart size={13} fill="currentColor" /> two penguins, side by side on this journey
         </span>
       </div>
     </>

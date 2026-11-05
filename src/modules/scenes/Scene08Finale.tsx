@@ -1,4 +1,4 @@
-import React from 'react'
+﻿import React from 'react'
 import { motion, AnimatePresence } from 'motion/react'
 import { ArrowLeft, RotateCcw, Heart, Music2 } from 'lucide-react'
 import { Teddy } from '../../shared/components/Teddy/Teddy'
@@ -46,7 +46,7 @@ export const Scene08Finale: React.FC<Scene08FinaleProps> = ({
         <Teddy big interactive hugCount={hugCount} onHug={onHug} />
         <div
           className="finale-penguins"
-          aria-label="Two penguin friends by the sea"
+          aria-label="Two little penguins by the sea"
           role="button"
           tabIndex={0}
           onClick={onGroupHug}
@@ -79,7 +79,7 @@ export const Scene08Finale: React.FC<Scene08FinaleProps> = ({
             animate={{ y: [0, -7, 0], rotate: [2, -2, 2] }}
             transition={{ duration: 2.3, repeat: Infinity, ease: 'easeInOut', delay: 0.3 }}
             role="img"
-            aria-label="Penguin friend"
+            aria-label="Penguin companion"
           >
             <span className="penguin-wing wing-left" />
             <span className="penguin-wing wing-right" />
@@ -112,7 +112,7 @@ export const Scene08Finale: React.FC<Scene08FinaleProps> = ({
         <span className="floaty final-f1">♡</span>
         <span className="floaty final-f2">✦</span>
         <span className="floaty final-f3">♡</span>
-        <div className="finale-ribbon">one teddy, two penguins, one good friend</div>
+        <div className="finale-ribbon">one teddy, two penguins, one special bond</div>
       </div>
       </DioramaStage>
       <div className="copy finale-copy">

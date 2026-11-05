@@ -1,4 +1,4 @@
-import React from 'react'
+﻿import React from 'react'
 import { motion } from 'motion/react'
 import { ArrowLeft, ArrowRight, Heart } from 'lucide-react'
 import { DioramaStage } from '../../shared/components/DioramaStage/DioramaStage'
@@ -77,7 +77,7 @@ export const Scene04Memories: React.FC<Scene04MemoriesProps> = ({
       <div className="copy">
         <span className="script-kicker">little moments, kept</span>
         <h1>
-          Our friendship<br />is my favourite <em>story.</em>
+          Our bond<br />is my favourite <em>story.</em>
         </h1>
         <p>
           From the silly laughs to the talks that fixed everything — the ordinary moments with you are the ones I keep.

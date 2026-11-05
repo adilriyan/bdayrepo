@@ -55,9 +55,9 @@ export const storyContent: StoryContentConfig = {
 
   'Never lose that little spark that makes you who you are. Keep being a little silly, a little crazy, and wonderfully you. The world is brighter with your laughter in it, and I hope you always find a thousand reasons to smile.',
 
-  'And of course, there are our two little penguins, waddling through life without a map or a plan, somehow figuring it all out together. Maybe that is what friendship is about: sharing silly moments, making memories, and finding happiness along the way, even when we do not know where we are going. ♡',
+  'And of course, there are our two little penguins, waddling through life without a map or a plan, somehow figuring it all out together. Maybe that is what our bond is about: sharing silly moments, making memories, and finding happiness along the way, even when we do not know where we are going. ♡',
 
-  'So here is to more laughter, unexpected adventures, countless happy moments, and a friendship filled with little memories we will always treasure. Whenever life feels cloudy, I hope you find a little sunshine and remember how special you are.',
+  'So here is to more laughter, unexpected adventures, countless happy moments, and a journey filled with little memories we will always treasure. Whenever life feels cloudy, I hope you find a little sunshine and remember how special you are.',
 
   `Happy birthday once again, ${recipientName}! Keep smiling, keep dreaming, and keep being your beautiful, wonderfully silly self. And wherever life takes us, may our two little penguins keep waddling along, making their own little world of happiness. ♡`
 ],
@@ -70,7 +70,7 @@ export const sceneNames = [
   'A letter',
   'A gift',
   'Memories',
-  'Seaside friends',
+  'Seaside journey',
   'Open when',
   'Make a wish',
   'For you'

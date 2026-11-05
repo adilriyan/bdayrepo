@@ -1,4 +1,4 @@
-import React from 'react'
+﻿import React from 'react'
 import { Heart } from 'lucide-react'
 
 export interface TopBarProps {
@@ -18,7 +18,7 @@ export const TopBar: React.FC<TopBarProps> = ({ soundOn, onToggleSound, onRestar
           onRestart()
         }}
       >
-        <span className="brand-mark">✳</span> little things, good friends
+        <span className="brand-mark">✳</span> little things, together
       </a>
       <button
         className="top-note sound-setting"

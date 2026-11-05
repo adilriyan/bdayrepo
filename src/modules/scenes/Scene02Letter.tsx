@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect, useMemo } from 'react'
+﻿import React, { useRef, useState, useEffect, useMemo } from 'react'
 import { motion, AnimatePresence } from 'motion/react'
 import { Heart, ArrowLeft, ArrowRight, Mail } from 'lucide-react'
 import { DioramaStage } from '../../shared/components/DioramaStage/DioramaStage'
@@ -281,8 +281,8 @@ export const Scene02Letter: React.FC<Scene02LetterProps> = ({
         <h1>
           {opened ? (
             <>
-              A few thoughts from<br />
-              <em>your friend.</em>
+              A few thoughts for<br />
+              <em>someone special.</em>
             </>
           ) : (
             <>
@@ -293,7 +293,7 @@ export const Scene02Letter: React.FC<Scene02LetterProps> = ({
         </h1>
         <p>
           {opened
-            ? 'No fancy reason. I just thought you should know that you are a very good friend to have.'
+            ? 'No fancy reason. I just wanted to remind you how much our bond and togetherness mean to me.'
             : 'There’s a tiny letter tucked inside. Go on, break the seal.'}
         </p>
         <div className="button-row">

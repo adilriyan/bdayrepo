@@ -1,6 +1,6 @@
-import React from 'react'
+﻿import React from 'react'
 import { motion, AnimatePresence } from 'motion/react'
-import { ArrowLeft, ArrowRight, Gift, Music2, Sparkles } from 'lucide-react'
+import { ArrowLeft, ArrowRight, Gift, Heart, Sparkles } from 'lucide-react'
 import { Teddy } from '../../shared/components/Teddy/Teddy'
 import { Confetti } from '../../shared/components/Confetti/Confetti'
 import { DioramaStage } from '../../shared/components/DioramaStage/DioramaStage'
@@ -167,7 +167,7 @@ export const Scene03Gift: React.FC<Scene03GiftProps> = ({
         <span className="script-kicker">surprise, surprise!</span>
         <h1>
           {giftOpen ? (
-            <>A whole lot of <em>friendship.</em></>
+            <>A whole lot of <em>togetherness.</em></>
           ) : (
             <>One last little<br /><em>surprise.</em></>
           )}
@@ -190,7 +190,7 @@ export const Scene03Gift: React.FC<Scene03GiftProps> = ({
           </button>
         </div>
         <span className="microcopy">
-          <Music2 size={13} /> soundtrack of friendship: your happy thoughts
+          <Heart size={13} fill="currentColor" /> celebrating our bond and happy moments
         </span>
       </div>
     </>
